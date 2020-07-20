@@ -7,4 +7,4 @@ RUN npm install
 EXPOSE 8080
 CMD [ "npm", "start" ]
 
-COPY . .
+COPY bulletin-board-app/ ./
